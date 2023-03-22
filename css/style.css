@@ -3,6 +3,7 @@ body {
   background-color: #EBEBEB;
 }
 
+/* Header */
 header {
   background-color: #373738;
   padding: 15px;
@@ -33,6 +34,7 @@ h4 {
   margin-bottom: 5px;
 }
 
+/* About Me */
 .aboutMe {
   max-width: 1000px;
   margin: 0 auto;
@@ -71,10 +73,8 @@ h4 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.Grid button:hover {
-  background-color: #3e8e41;
-}
 
+/* My Skills */
 .mySkills {
   padding: 24px;
   text-align: center;
@@ -110,6 +110,7 @@ h4 {
   margin: 0;
 }
 
+/* My Work */
 .myWork {
   max-width: 1000px;
   margin: 0 auto;
@@ -152,10 +153,8 @@ h4 {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-.workGrid button:hover {
-  background-color: #3e8e41;
-}
 
+/* Responsive Screen */
 @media only screen and (max-width: 600px) {
   .Grid {
     grid-template-columns: repeat(1, 1fr);
@@ -164,6 +163,7 @@ h4 {
   }
 }
 
+/* Footer */
 footer {
   background-color:#373738;
   color: #fbf3e9;
