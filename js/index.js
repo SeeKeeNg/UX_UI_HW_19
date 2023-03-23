@@ -9,7 +9,7 @@ $('button').hover(function() {
 );
 
 //animate the grid when mouse hover over it
-$('.workGrid div').hover(function() {
+$('.workGrid').hover(function() {
     $(this).css({
         // add transition to the grid container
         'transform': 'translateY(-8px)',
